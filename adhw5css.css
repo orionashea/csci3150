@@ -38,4 +38,9 @@ background-color: #79C4AC !important;}
 
 
 /* end of form css */
-	
+
+.submit-button {
+	margin:2em 0;
+	float:right;
+	width:70%;
+}
