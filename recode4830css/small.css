@@ -1,0 +1,179 @@
+/* 16:9 */
+@-webkit-keyframes biSlideFade {
+  0% {
+    opacity: 0; }
+  6% {
+    opacity: 1; }
+  24% {
+    opacity: 1; }
+  30% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@keyframes biSlideFade {
+  0% {
+    opacity: 0; }
+  6% {
+    opacity: 1; }
+  24% {
+    opacity: 1; }
+  30% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@media only screen {
+  /*
+        * TYPOGRAPHY *
+    */
+  h2 {
+    font-size: 2rem; }
+  h3 {
+    font-size: 1.75rem; }
+  .bi-content-img.left, .bi-video-container.left {
+    float: left;
+    margin-left: 0em;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 0.375em; }
+  .bi-content-img.right, .bi-video-container.right {
+    float: right;
+    margin-left: 2rem;
+    margin-right: 0em;
+    margin-bottom: 2rem;
+    margin-top: 0.375em; }
+  .bi-header-contact {
+    display: none; }
+  .bi-socialmedia {
+    display: none; }
+  .bi-site-header {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    z-index: 3; }
+    .bi-site-header .bi-logo-container a {
+      max-width: 200px; }
+    .bi-site-header .bi-logo-container .bi-logo-rev {
+      display: block; }
+    .bi-site-header .bi-logo-container .bi-logo-mobile {
+      display: none; }
+  .home .bi-site-header {
+    padding-top: 10vh; }
+  .bi-hero {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    position: relative;
+    /*&::before{
+		    content:"";
+			position:absolute;
+			top:0;
+			left:0;
+			right:0;
+			bottom:0;
+			background-image:url(/images/home-page-overlay.png);
+			background-repeat:no-repeat;
+			background-size:contain;
+			z-index:2;
+			width:100%;
+			height:100%;
+		}*/ }
+    .bi-hero img {
+      max-width: 100%;
+      width: 100%;
+      height: auto; }
+    .bi-hero::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 10vh;
+      background: transparent;
+      background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, white 100%);
+      background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, white 100%);
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(white));
+      background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%);
+      background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, white 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+      z-index: 2; }
+  .bi-inside-page-hero {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 2rem; }
+    .bi-inside-page-hero img {
+      max-width: 100%;
+      width: 100%;
+      height: auto; }
+    .bi-inside-page-hero::after {
+      content: '';
+      width: 100%;
+      height: 3vw;
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      background-image: url(/images/page-section-hero-bottom.png);
+      display: block;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      z-index: 10; }
+  .bi-logo-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .bi-logo-container .bi-button {
+      margin: 0;
+      margin-top: 2rem;
+      max-width: 250px;
+      font-size: .8rem;
+      padding: 0.5rem;
+      padding-right: 2rem; }
+      .bi-logo-container .bi-button:before {
+        height: 3rem; }
+  .bi-home-cta .bi-home-cta-btm-border {
+    bottom: -4vh; }
+  .bi-services-section .bi-services-inner h3 {
+    font-size: 1.5rem; }
+  .bi-inside-page-hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .bi-inside-page-hero img {
+      -o-object-fit: cover;
+      object-fit: cover;
+      -o-object-position: center;
+      object-position: center; }
+    .bi-inside-page-hero:before {
+      content: '';
+      width: 50%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      background: black;
+      background: -moz-linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+      background: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+      background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.4)));
+      background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+      background: -o-linear-gradient(right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+      background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1); } }

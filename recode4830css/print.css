@@ -1,0 +1,48 @@
+* {
+  background: transparent !important;
+  color: #000 !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  opacity: 1; }
+
+a:visited {
+  text-decoration: none; }
+
+.bi-skip {
+  display: none; }
+
+pre, blockquote {
+  page-break-inside: avoid; }
+
+thead {
+  display: table-header-group; }
+
+tr, img {
+  page-break-inside: avoid; }
+
+img {
+  max-width: 100% !important;
+  display: none; }
+
+p, h2, h3 {
+  orphans: 3;
+  widows: 3; }
+
+h2, h3 {
+  page-break-after: avoid; }
+
+.bi-main-nav {
+  display: none; }
+
+.bi-accesibility-button {
+  display: none; }
+
+.bi-nav-controllers {
+  display: none; }
+
+.bi-logo-container {
+  font-size: 2rem; }
+
+.bi-logo-mobile {
+  display: none; }
